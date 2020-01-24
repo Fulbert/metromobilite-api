@@ -1,0 +1,10 @@
+{
+  "name": "metromobilite-api",
+  "version": "0.1",
+  "description": "A library to access Metromobilité API (data.metromobilite.api).",
+  "main": "index.js",
+  "repository": "git@github.com:Fulbert/metromobilite-api.git",
+  "author": "Grégoire Lannoy <gregoire.lannoy@gmail.com>",
+  "license": "GNU General Public License v3.0",
+  "private": false
+}
