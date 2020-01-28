@@ -1,10 +1,34 @@
 {
   "name": "metromobilite-api",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "A library to access Metromobilité API (data.metromobilite.api).",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:Fulbert/metromobilite-api.git",
   "author": "Grégoire Lannoy <gregoire.lannoy@gmail.com>",
-  "license": "GNU General Public License v3.0",
-  "private": false
+  "license": "AGPL-3.0-only",
+  "private": false,
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest --config jestconfig.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.5.0",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "prettier-eslint": "^9.0.1",
+    "ts-jest": "^25.0.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
